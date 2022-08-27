@@ -1,0 +1,48 @@
+.data {
+  display: flex;
+  margin: 20px auto;
+  width: 50%;
+  background-color: #ccc;
+  justify-content: space-evenly;
+}
+.data .num1,
+.data .num2,
+.data .op {
+  height: 30px;
+  line-height: 25px;
+  text-align: center;
+  margin: 20px 0;
+  border: 1px solid #03a9f4;
+  border-radius: 10px;
+  outline: none;
+}
+.data .op {
+  width: 74px;
+  margin-top: 22px;
+}
+.data .submit {
+  position: absolute;
+  margin: 65px;
+  width: 50px;
+  background-color: #00bcd4;
+  color: #fff;
+  border: 1px solid #0960a5;
+  border-radius: 50%;
+  height: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.result {
+  border: 1px solid;
+  border-color: transparent #bbb #bbb;
+  width: calc(50% - 2px);
+  margin: -20px auto;
+  height: 75px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}

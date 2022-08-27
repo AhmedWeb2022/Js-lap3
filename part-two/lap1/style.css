@@ -1,0 +1,92 @@
+.question {
+  width: 50%;
+
+  margin: 10px auto;
+  background-color: #eee;
+}
+.question .q-lable {
+  height: 30px;
+  width: 50%;
+  line-height: 30px;
+  margin: 10px 25%;
+}
+.question .q-num {
+  height: 30px;
+  width: 50%;
+  line-height: 30px;
+  margin: 10px;
+  margin-left: 25%;
+  border: 1px solid #03a9f4;
+  border-radius: 10px;
+  text-align: center;
+}
+.question .ok {
+  width: 12%;
+  height: 30px;
+  background-color: #00bcd4;
+  border: 1px solid #085593;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.data {
+  width: 50%;
+  margin: -10px auto 0px;
+  background-color: rgb(238, 238, 238);
+  border-top: 1px solid rgb(187, 187, 187);
+  text-align: center;
+}
+.data .d-lable {
+  height: 20px;
+  padding: 10px 0px;
+  line-height: 20px;
+  margin: 10px 50px;
+}
+.data .num {
+  height: 20px;
+  border: 1px solid rgb(0, 188, 212);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 10px 50px;
+}
+.data .next {
+  background-color: rgb(0, 188, 212);
+  color: white;
+  border: 1px solid rgb(9, 106, 118);
+  border-radius: 10px;
+  height: 40px;
+  width: 65px;
+  line-height: 40px;
+  outline: none;
+  cursor: pointer;
+  margin: 10px 30px;
+}
+.data .submit {
+  width: 130px;
+  margin: 10px 43%;
+  height: 35px;
+  background-color: #00bcd4;
+  border: 1px solid #0b5793;
+  border-radius: 10px 250px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.result {
+  border: 1px solid;
+  border-color: #bbb #bbb #bbb;
+  width: calc(50% - 2px);
+  margin: 0 auto;
+  height: 75px;
+  background-color: #eee;
+  font-size: 20px;
+  font-weight: bold;
+}
+.result span {
+  display: block;
+  margin: 10px 25%;
+  width: 50%;
+  text-align: center;
+}
